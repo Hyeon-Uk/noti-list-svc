@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="10.0" package="org.tizen.noti-list-svc" version="1.0.0">
+	<label>noti-list-svc</label>
+	<description>Dumps all notifications via notification_get_list()</description>
+	<service-application appid="org.tizen.noti-list-svc"
+		exec="/usr/apps/org.tizen.noti-list-svc/bin/noti-list-svc"
+		auto-restart="false" on-boot="false" multiple="false" type="capp" nodisplay="true" taskmanage="false">
+		<label>noti-list-svc</label>
+	</service-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/notification</privilege>
+	</privileges>
+</manifest>
