@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <service_app.h>
 #include <notification.h>
-#include <notification_list.h>
+#include <notification_internal.h>
 #include <dlog.h>
 
 #undef LOG_TAG
